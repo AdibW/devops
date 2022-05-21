@@ -28,6 +28,7 @@ public class IControllerEmployeImpl  {
 	public int ajouterEmploye(Employe employe)
 	{
 		iemployeservice.ajouterEmploye(employe);
+		//sqdsqd
 		return employe.getId();
 	}
     
